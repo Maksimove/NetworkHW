@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class ViewController: UIViewController {
+final class MainViewController: UIViewController {
     @IBOutlet var imageView: UIImageView!
     
     private let url = URL(string: "https://random.dog/woof.json")
